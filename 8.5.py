@@ -1,5 +1,5 @@
-a = int(input("Nhập năm: "))
+a = int(input("Nhap nam: "))
 if ((a%4==0) and (a%100!=0) or (a%400==0)):
-    print("năm", a, "là năm nhuận")
+    print("nam", a, "la nam nhuan")
 else:
-    print("năm", a, "không phải là năm nhuận")
+    print("nam", a, "khong phai la nam nhuan")
